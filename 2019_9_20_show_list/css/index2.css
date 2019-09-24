@@ -1,0 +1,139 @@
+@media screen and (min-width: 1750px){
+  .logo_search{
+    margin-left: 1500px;
+  }
+  .show{
+    width: 1328px;
+    margin: 30px auto;
+    position: relative;
+  }
+  .left{
+    font-size: 300px;
+    color: #ccc;
+    position: absolute;
+    top: 25%;
+    left: -300px;
+    cursor: default;
+  }
+  .right{
+    font-size: 300px;
+    color: #ccc;
+    position: absolute;
+    top: 25%;
+    left: 1328px;
+  }
+  .loop{
+    width: 1328px;
+    overflow: hidden;
+  }
+  .loop1_parent{
+    width: 1328px;
+    position: relative;
+  }
+  .loop1{
+    width: 1328px;
+  }
+  .loop0{
+    position: absolute;
+    top: 0px;
+    left: -1328px;
+    width: 1328px;
+  }
+  .loop2{
+    width: 1328px;
+    position: absolute;
+    top: 0px;
+    left: 1328px;
+  }
+  .list{
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 300px;
+    height: 700px;
+    margin: 15px;
+  }
+}
+
+@media screen and (max-width: 1750px){
+  .logo_search{
+    line-height: 10px;
+    width: 200px;
+    margin-left: 75%;
+  }
+  .show{
+    width: 75%;
+    margin: 30px auto;
+    position: relative;
+  }
+  .left{
+    font-size: 17em;
+    color: #ccc;
+    position: absolute;
+    top: 25%;
+    left: -22.5%;
+    cursor: default;
+  }
+  .right{
+    font-size: 17em;
+    color: #ccc;
+    position: absolute;
+    top: 25%;
+    left: 100%;
+  }
+  .loop{
+    width: 100%;
+    overflow: hidden;
+  }
+  .loop1_parent{
+    width: 100%;
+    position: relative;
+  }
+  .loop1{
+    width: 100%;
+  }
+  .loop0{
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    width: 100%;
+  }
+  .loop2{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+  }
+  .list{
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 22%;
+    height: 600px;
+    margin: 1.14%;
+  }
+}
+
+@media screen and (max-width: 700px){
+  body{
+    width: 700px;
+  }
+}
+
+.logo_img{
+  margin-left: -100px;
+}
+.search_val{
+  height: 20px;
+  border-radius: 1px;
+  border: 1px solid #fff;
+  -moz-box-shadow:0px 0px 3px #333333;
+  -webkit-box-shadow:0px 0px 3px #333333;
+  box-shadow:0px 0px 3px #333333;
+}
+.search{
+  font-size: 25px;
+  margin: 0px;
+  padding: 0px;
+}
+li{
+  list-style: none;
+}

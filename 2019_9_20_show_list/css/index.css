@@ -1,0 +1,128 @@
+  body{
+    overflow-x: hidden;
+  }
+  .logo{
+    margin-top: 70px;
+    height: 150px;
+  }
+  .logo_img{
+    margin-left: -100px;
+  }
+  .search_val{
+    height: 20px;
+    border-radius: 1px;
+    border: 1px solid #fff;
+    -moz-box-shadow:0px 0px 3px #333333;
+    -webkit-box-shadow:0px 0px 3px #333333;
+    box-shadow:0px 0px 3px #333333;
+  }
+  .search{
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .logo_search{
+    line-height: 10px;
+    width: 250px;
+    margin-top: -50px;
+    margin-left: 75%;
+  }
+  .show{
+    width: 75%;
+    margin: 30px auto;
+    position: relative;
+  }
+  .left{
+    font-size: 17em;
+    color: #ccc;
+    position: absolute;
+    top: 25%;
+    left: -22.5%;
+    cursor: default;
+  }
+  .right{
+    font-size: 17em;
+    color: #ccc;
+    position: absolute;
+    top: 25%;
+    left: 100%;
+  }
+  .loop{
+    width: 100%;
+    overflow: hidden;
+  }
+  .loop1_parent{
+    width: 100%;
+    position: relative;
+  }
+  .loop1{
+    width: 100%;
+  }
+  .loop0{
+    position: absolute;
+    top: 0px;
+    left: -100%;
+    width: 100%;
+  }
+  .loop2{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+  }
+  .list{
+    text-align: center;
+    display: inline-block;
+    background-color: #23cefc;
+    width: 22%;
+    height: 800px;
+    margin: 1.14%;
+    -moz-box-shadow:0px 0px 10px #bba0a0;
+    -webkit-box-shadow:0px 0px 10px #bba0a0;
+    box-shadow:0px 0px 10px #bba0a0;
+    overflow-y:scroll;
+  }
+  .list_head{
+    border-radius: 50%;
+    width: 70%;
+    margin-top: 25px;
+  }
+  .list_name{
+    font-size: 1.5em;
+    color: #fff;
+  }
+  .list_position{
+    margin: 15px auto;
+    background-color: #7bbbba;
+    width: 100px;
+    color: #fff;
+    border-radius: 10px;
+  }
+  .list_content{
+    margin: 20px;
+    font-size: 1em;
+    color: #fff;
+  }
+
+@media screen and (max-width: 1750px){
+  .list{
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  body{
+    width: 800px;
+    overflow-x: auto;
+  }
+  .list{
+    height: 500px;
+  }
+}
+
+li{
+  list-style: none;
+}
+
+/* 滚动条隐藏但是有效果 */
+.list::-webkit-scrollbar{display: none;}
